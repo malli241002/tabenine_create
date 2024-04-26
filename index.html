@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Rides</title>
+    <style>
+        body {
+            background-image: url('ride-image.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .header a:hover {
+            color: #ddd;
+        }
+
+        .main {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .main form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main form input[type="text"],
+        .main form input[type="password"] {
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+
+        .main form input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .main form input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Eco Rides</h1>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="main">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2022 Eco Rides. All rights reserved.</p>
+    </div>
+</body>
+</html>
